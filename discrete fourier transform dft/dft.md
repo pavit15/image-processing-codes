@@ -8,7 +8,7 @@ It does the following:
 - Compares results with built-in **FFT** functions.
 - Visualizes the frequency components present in the image.
 
-## Explanation
+## Explaination
 
 **Discrete Fourier Transform (DFT)** is used to analyze the frequency content of signals or images.  
 It transforms pixel intensity data into its constituent sine and cosine frequency components.
@@ -43,19 +43,13 @@ It transforms pixel intensity data into its constituent sine and cosine frequenc
    - Manual DFT: Magnitude & Phase
    - FFT: Magnitude & Phase
 
-
-## Sample Input
-
-
 ## Sample Output
 
 - Manual DFT Magnitude Spectrum
 - Manual DFT Phase Spectrum
 - FFT Magnitude Spectrum
 - FFT Phase Spectrum
-
-*(Insert 4 output plots here)*
-
+![image](https://github.com/user-attachments/assets/b74ee511-70d8-4ea5-a5b2-198aa20bd980)
 
 ## Notes
 
