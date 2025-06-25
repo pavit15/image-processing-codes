@@ -25,7 +25,6 @@ It applies a **piecewise linear transformation**:
 
 This method enhances visual contrast without complex transformations and works well for basic image improvement tasks.
 
-
 ## Code Algorithm
 
 1. **Read Grayscale Image**.
@@ -56,24 +55,18 @@ Enter r1: 20
 Enter r2: 130
 Enter v: 0
 Enter w: 255
-
-
-_(Insert input image screenshot here)_
-
+![input](https://github.com/pavit15/image-processing-codes/raw/main/contrast%20stretching/ivp.jpg)
 
 
 ## Sample Output
 
-- Original and contrast-stretched images side-by-side
+- Original and contrast stretched
 - Histogram of original image
 - Histogram of stretched image
-
-_(Insert 4 output plots here from MATLAB/Python)_
-
+![output](https://github.com/user-attachments/assets/0ab85999-6d2f-4f7a-869d-8afbd71fc6b4)
 
 
 ## Notes
-
-- This algorithm is simple yet effective for enhancing contrast in underexposed or low-contrast images.
+- This algorithm is simple yet effective for enhancing contrast in underexposed or low contrast images.
 - Unlike histogram equalization, contrast stretching maintains control over which pixel intensities are stretched.
 - Useful in preprocessing images for further analysis or computer vision tasks.
