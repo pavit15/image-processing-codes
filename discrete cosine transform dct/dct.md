@@ -7,8 +7,7 @@ This code computes the **Discrete Cosine Transform (DCT) basis matrix** for a gi
 - Constructs 2D basis images by outer product of row and column vectors from the DCT matrix.
 - Displays all basis images in a grid format with appropriate labels.
 
-
-## Explanation
+## Explaination
 
 The **Discrete Cosine Transform (DCT)** is a fundamental technique in image processing and compression (e.g., JPEG).  
 It transforms an image or signal into a sum of cosine functions oscillating at different frequencies.
@@ -22,7 +21,6 @@ It transforms an image or signal into a sum of cosine functions oscillating at d
 - Reduces redundancy in images.
 - Important in image compression algorithms (JPEG, MPEG).
 - Separates image content into parts (low/high frequency).
-
 
 ## Code Algorithm
 
@@ -43,20 +41,16 @@ It transforms an image or signal into a sum of cosine functions oscillating at d
    - Turn off axes and label each image with its `(i, j)` index.
    - Use grayscale colormap for clarity.
 
----
-
 ## Sample Input
 
 _Enter the order of the matrix:_  
 `4`  
-_(You can include an input screenshot or code snippet here)_
-
 
 ## Sample Output
 
 - DCT Basis Matrix of order 4  
 - 16 Grayscale images representing each DCT basis function  
-_(Insert the output grid of basis images here)_
+![image](https://github.com/user-attachments/assets/41a9cef5-8da8-4628-a6fd-3c0e5d6b0419)
 
 ## Notes
 - DCT basis functions are separable and orthogonal.
