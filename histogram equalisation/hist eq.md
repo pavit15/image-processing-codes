@@ -7,10 +7,9 @@ It redistributes the pixel intensity values such that the histogram becomes more
 
 The implementation includes:
 - **Manual histogram equalization**
-- **Built-in `histeq()` function** for comparison 
+- **Built in `histeq()` function** for comparison 
 
-
-## Explanation
+## Explaination
 
 **Histogram Equalization** is a contrast enhancement technique in spatial domain processing.  
 It works by:
@@ -22,8 +21,6 @@ This process:
 - Increases image detail in dark or bright regions
 - Makes the histogram of the image more **uniform**
 - Is widely used in photography, medical imaging, and preprocessing steps in computer vision
-
----
 
 ## Code Algorithm
 
@@ -44,30 +41,21 @@ This process:
    - Use MATLAB’s `histeq()` or Python’s `exposure.equalize_hist()`
 7. **Visualization**:
    - Display original, equalized, and built-in equalized images
-   - Show histograms of all three for comparison
-
----
+   - Shows histograms of all three for comparison
 
 ## Sample Input
 
 Image: `ivp.jpg` (grayscale or RGB)
-
-_User Inputs_: None required (auto process)
-
----
 
 ## Sample Output
 
 - **Original Image** and its Histogram  
 - **Manually Equalized Image** and Histogram  
 - **Image via `histeq()` or `equalize_hist()`** and Histogram  
-
-_(Insert 3×2 grid of images and histograms)_
-
----
+![image](https://github.com/user-attachments/assets/f5ef45ff-b6f9-4a91-b860-38519cf7c640)
 
 ## Notes
 
 - Histogram equalization improves overall image contrast without manual thresholding.
 - The CDF-based mapping ensures that frequently occurring pixel values are spread over a broader range.
-- Built-in functions (`histeq`, `exposure.equalize_hist`) are optimized but understanding the manual process is key to mastering image enhancement.
+- Built in functions (`histeq`, `exposure.equalize_hist`) are optimized but understanding the manual process is key to mastering image enhancement.
