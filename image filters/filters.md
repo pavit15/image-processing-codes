@@ -8,7 +8,7 @@ This experiment implements three popular **image smoothing techniques**:
 - **Median filter** – replaces a pixel with the median value, effective against salt-and-pepper noise.
 
 
-## Theory / Function Explanation
+## Explanation
 
 ### 1. **Average Filter**  
 Replaces each pixel with the **mean** of its surrounding pixels. It smooths the image but may blur edges.
@@ -19,7 +19,6 @@ Applies **higher weights to the central pixels** in a 3×3 region, preserving mo
 ### 3. **Median Filter**  
 Replaces each pixel with the **median** of its neighborhood. Very effective for removing **salt-and-pepper noise** without blurring edges.
 
----
 
 ## Code Algorithm
 
@@ -43,7 +42,7 @@ Replaces each pixel with the **median** of its neighborhood. Very effective for 
 ## Sample Input
 
 Image: `ivp2.png` with added salt-and-pepper noise (2%)
---
+![image](https://github.com/user-attachments/assets/56af15a7-d260-404f-bd76-89109237e107)
 
 ## Sample Output
 
@@ -55,9 +54,7 @@ Image: `ivp2.png` with added salt-and-pepper noise (2%)
 - **Weighted Avg Filter – Built-in**
 - **Median Filter – Built-in**
 
-_*(Insert 2x3 subplot grid of output images + original image separately)*_
-
----
+![image](https://github.com/user-attachments/assets/abefd043-64d2-4a43-828f-2096dd836322)
 
 ## Notes
 
