@@ -6,13 +6,11 @@ This code performs **image sharpening** using different **Laplacian masks** and 
 It enhances the edges and details of the image by detecting areas of rapid intensity change and emphasizing them.
 
 The implementation includes:
-- Four types of Laplacian-based edge enhancement
+- Four types of Laplacian based edge enhancement
 - Average and Gaussian unsharp masking
 - Comparison of all sharpened outputs with the original
 
----
-
-## Theory / Function Explanation
+## Explanation
 
 **Image sharpening** is used to enhance fine details and emphasize edges.  
 It is achieved using the **second derivative** of the image, commonly implemented with **Laplacian operators**.
@@ -25,8 +23,6 @@ This method involves:
 - **Blurring** the image (average or Gaussian)
 - **Subtracting** the blurred image from the original to extract high-frequency components
 - **Adding** these components back to the original to sharpen it
-
----
 
 ## Code Algorithm
 
@@ -44,13 +40,8 @@ This method involves:
    - Images sharpened by each mask
    - Output from unsharp masking (avg and Gaussian)
 
----
-
 ## Sample Input
-
 Image: `ted.jpg` (any standard color or grayscale image)
-
----
 
 ## Sample Output
 
@@ -61,13 +52,10 @@ Image: `ted.jpg` (any standard color or grayscale image)
 - **Sharpened with Laplacian Mask 4** (center -8)
 - **Unsharp Masked Image using Average Blur**
 - **Unsharp Masked Image using Gaussian Blur**
-
-_*(Insert 3x3 subplot grid of all images)*_
-
----
+![image](https://github.com/user-attachments/assets/8f41c4ad-b7d7-45d9-bcee-cfc1100c28bc)
 
 ## Notes
 
 - Laplacian filters highlight fine details but can amplify noise.
 - Unsharp masking works well for smooth sharpening without edge artifacts.
-- Gaussian-based methods offer more natural enhancement due to weighted smoothing.
+- Gaussian based methods offer more natural enhancement due to weighted smoothing.
