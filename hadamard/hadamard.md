@@ -9,8 +9,7 @@ The code:
 - Computes outer products to generate 2D Hadamard basis images.
 - Displays them in a grid with labels for each `(i, j)` index.
 
-
-## Explanation
+## Explaination
 
 The **Hadamard Transform** is an orthogonal transform that uses only +1 and -1 values.  
 It’s widely used for:
@@ -24,13 +23,10 @@ It’s widely used for:
 H₂N = [ Hₙ Hₙ
   Hₙ -Hₙ ]
 
-
 **Key Features**:
 - All values are +1 or -1.
 - Easier to implement digitally than sinusoidal transforms.
 - Orthogonal and invertible.
-
----
 
 ## Code Algorithm
 
@@ -42,26 +38,17 @@ H₂N = [ Hₙ Hₙ
  - Display each as a grayscale image in an NxN grid.
  - Use `imshow` with `cmap='gray'`.
 
----
-
 ## Sample Input
 
 Enter the order of the matrix (power of 2): 4
-_(Insert constructed Hadamard matrix here)_
-
----
 
 ## Sample Output
 
 - NxN Hadamard basis function images as a grid.
 - Images represent distinct binary orthogonal patterns.
-
-_(Insert visual output of Hadamard basis images here)_
-
----
+![image](https://github.com/user-attachments/assets/46e48aff-8c42-4755-b917-dec359ca7d21)
 
 ## Notes
-
 - Hadamard matrices form a complete orthogonal set.
 - Useful for data compression and optical image processing.
 - Much faster than sinusoidal transforms in digital logic circuits.
