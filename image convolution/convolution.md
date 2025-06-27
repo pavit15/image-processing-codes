@@ -8,8 +8,7 @@ This code performs **2D convolution** of two matrices:
 
 The result is a convolved matrix which shows how the filter modifies the image. It is implemented manually without using built in `conv2()` function of MATLAB.
 
-
-## Explanation
+## Explaination
 
 **Convolution** is a core operation in image processing where a filter (kernel) is applied to an image. At each position, overlapping values of the image and kernel are multiplied and summed to generate a new pixel value in the output.
 
@@ -23,7 +22,6 @@ It is used for:
 - Matrix flipping is not done (correlation like implementation).
 - Padding is handled implicitly by expanding output size:  
   `output size = input size+kernel size-1`
-
 
 ## Code Algorithm
 
@@ -42,18 +40,7 @@ It is used for:
     - Check if corresponding index in `h` is valid
     - If valid: `sum += x[m][n] * h[i - m + 1][j - n + 1]`
   - Store `sum` in `output[i][j]`
-5. **Print Output**
-
-
-## Sample Input
-
-*(Insert sample input image here, e.g., 3x3 matrix for `x` and 1x3 matrix for `h`)*
-
-
-## Sample Output
-
-*(Insert result of convolution as image of matrix)*
-
+5. **Print the output**
 
 ## Notes
 - Output size increases based on kernel size (no cropping or padding used).
