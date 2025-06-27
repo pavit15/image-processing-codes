@@ -3,7 +3,6 @@
 ## What This Code Does
 
 This code generates the **Walsh basis functions** of a given order (must be a power of 2) and visualizes them as grayscale images.  
-
 The Walsh Transform decomposes an image into a set of orthogonal square wave basis functions, ordered by **sequency** (number of zero crossings).
 
 The code:
@@ -11,8 +10,7 @@ The code:
 - Reorders it into **sequency order**.
 - Displays the Walsh basis images using outer products of basis vectors.
 
-
-## Explanation
+## Explaination
 
 The **Walsh Transform** is a non sinusoidal orthogonal transform that uses only +1 and -1 values.  
 It is particularly useful in:
@@ -47,16 +45,11 @@ It is particularly useful in:
 ## Sample Input
 
 Enter the order of the matrix (power of 2): 4
-
-_(Insert original Walsh matrix and reordered Walsh matrix here)_
-
+![image](https://github.com/user-attachments/assets/1813592f-133a-405d-89a6-fcb15f4eca9a)
 
 ## Sample Output
-
 - NxN grayscale images showing the full Walsh basis set.
 - Ordered from low to high sequency.
-
-_(Insert visual grid of Walsh basis images here)_
 
 ## Notes
 
